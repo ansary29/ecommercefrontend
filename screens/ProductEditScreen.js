@@ -74,7 +74,7 @@ const ProductEditScreen = ({ match, history }) => {
         },
       }
 
-      const { data } = await axios.post('https://ecommerce-vty0.onrender.com/api/upload', formData, config)
+      const { data } = await axios.post('/api/upload', formData, config)
 
       console.log(data, "LDAA")
 
